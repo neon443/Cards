@@ -6,17 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A9629BBB2E484CA200F97809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9629BB62E484CA200F97809 /* Assets.xcassets */; };
+		A9629BBC2E484CA200F97809 /* CardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9629BB82E484CA200F97809 /* CardsApp.swift */; };
+		A9629BBD2E484CA200F97809 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9629BB92E484CA200F97809 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A9629BA72E4840B200F97809 /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9629BB62E484CA200F97809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9629BB72E484CA200F97809 /* Cards.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cards.entitlements; sourceTree = "<group>"; };
+		A9629BB82E484CA200F97809 /* CardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsApp.swift; sourceTree = "<group>"; };
+		A9629BB92E484CA200F97809 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		A9629BA92E4840B200F97809 /* Cards */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Cards;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A9629BA42E4840B200F97809 /* Frameworks */ = {
@@ -32,7 +34,7 @@
 		A9629B9E2E4840B200F97809 = {
 			isa = PBXGroup;
 			children = (
-				A9629BA92E4840B200F97809 /* Cards */,
+				A9629BBA2E484CA200F97809 /* Cards */,
 				A9629BA82E4840B200F97809 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +45,25 @@
 				A9629BA72E4840B200F97809 /* Cards.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A9629BBA2E484CA200F97809 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				A9629BB62E484CA200F97809 /* Assets.xcassets */,
+				A9629BB72E484CA200F97809 /* Cards.entitlements */,
+				A9629BB82E484CA200F97809 /* CardsApp.swift */,
+				A9629BBE2E484CA700F97809 /* Views */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		A9629BBE2E484CA700F97809 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9629BB92E484CA200F97809 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +80,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				A9629BA92E4840B200F97809 /* Cards */,
 			);
 			name = Cards;
 			packageProductDependencies = (
@@ -109,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9629BBB2E484CA200F97809 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9629BBC2E484CA200F97809 /* CardsApp.swift in Sources */,
+				A9629BBD2E484CA200F97809 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
